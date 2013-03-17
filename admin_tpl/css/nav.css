@@ -1,0 +1,51 @@
+.horizontal-nav {
+	margin: 0 auto;
+}
+.horizontal-nav ul {
+	display: block;
+	float: left;
+	text-align: center;
+}
+.horizontal-nav>ul>li {
+	float: left;
+}
+.horizontal-nav>ul>li:first-child {
+	background:transparent;
+}
+.horizontal-nav>ul>li>a {
+	width:110px;
+	display: block;
+	height:12px;
+	padding:8px 0px 16px 0px;
+	text-decoration: none;
+	margin:12px 2px 0px 0px;
+	border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	-ms-border-radius:5px 5px 0 0;
+	-o-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	font-weight:900;
+}
+.horizontal-nav>ul>li.current>a{
+}
+.horizontal-nav>ul>li>a>small {
+	display: block;
+	font-size: .6em;
+	font-weight: normal;
+}
+.horizontal-nav>ul>li:first-child>a {
+	border-left: 0 none;
+}
+.horizontal-nav>ul>li>a:hover, .horizontal-nav>ul>li>a:active {
+	box-shadow:inset 0px -5px 10px rgba(0,0,0,.3);
+	-moz-box-shadow:inset 0px -5px 10px rgba(0,0,0,.3);
+	-ms-box-shadow:inset 0px -5px 10px rgba(0,0,0,.3);
+	-o-box-shadow:inset 0px -5px 10px rgba(0,0,0,.3);
+	-webkit-box-shadow:inset 0px -5px 10px rgba(0,0,0,.3);
+}
+.horizontal-nav ul li:first-child a:hover, .horizontal-nav ul li:first-child a:active{
+}
+.horizontal-nav ul li:last-child a:hover, .horizontal-nav ul li:last-child a:active{
+}
+.horizontal-nav ul li a:hover small {
+}
